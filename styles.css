@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+body {
+  width: 100%;
+  margin: 0px;
+}
+nav {
+border: solid #000000 1px;
+
+}
+.nav-wrap {
+  display: flex;
+  /* border: solid #000000 1px; */
+  width: 50%;
+  margin-left:50%;
+  margin-bottom: .2em;
+  padding: .2em;
+}
+.nav-menu {
+  flex: 1;
+  /* border: solid #000000 1px; */
+  /* margin: 5px 10px; */
+  text-align: center;
+}
+a {
+  text-align: center;
+  font-size: 1.4em;
+  color: #000000;
+  text-decoration: none;
+  border: solid  1px #000000;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+a:hover {
+  cursor: pointer;
+  color: #005F6B;
+}
+h1 {
+  text-align: center;
+  /* margin-top: 1em; */
+  padding: 1em;
+}
+hr {
+  margin: 5px;
+  padding: 1em;
+}
+.main-section1 {
+  margin-bottom: 0;
+  height: 600px;
+  background-color: #00B4CC;
+}
+.main-bio {
+  text-align: center;
+  width: 60%;
+  padding: 2.5em auto;
+}
+#bio {
+  text-align: left;
+  margin-left: 4em;
+}
+img {
+  height: 350px;
+  width: 250px;
+  float: left;
+  padding-right: 10px;
+  border-radius: 20%;
+}
+.main-2 {
+  text-align: center;
+  height: 600px;
+  border: solid;
+  background-color: #343838;
+}
+.tool-contain {
+  display: flex;
+  height: 200px;
+  width: 50%;
+  margin:1.5em auto;
+}
+.tools {
+  border: solid 1px #000000;
+  height: 125px;
+  max-width: 125px;
+  flex: 1;
+  text-align: center;
+  margin: auto;
+}
+.main-3 {
+  height: 400px;
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  height: 75px;
+  border: solid 1px #000000;
+}
+#jscript {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/js.png');
+}
+#linux {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/linux.png');
+}
+#html5 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/html.png');
+}
+#css3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/css.png');
+}
+#scrum {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/scrum.png');
+}
+#illustrator {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./ai_img.png");
+}
+#wordpress {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./icon-wordpress-11.jpg');
+}
